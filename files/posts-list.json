@@ -1,0 +1,14 @@
+[
+  {
+    "post-name": "First Blog Post",
+    "post-link": "post.html?blog1"
+  },
+  {
+    "post-name": "Second Blog Post",
+    "post-link": "post.html?post2"
+  },
+  {
+    "post-name": "Hello Guys",
+    "post-link": "post.html?mustbe"
+  }
+]

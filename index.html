@@ -1,1 +1,26 @@
-<p>Welcome </p>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Blog Home</title>
+  <link rel="stylesheet" href="files/style.css">
+</head>
+<body>
+   <add src="components/header"></add>
+   <div class="hero-image">
+     <div class="hero-text">
+       <h1 style="font-size:50px">William Anderson</h1>
+       <p>and I'm an author</p>
+       <button onclick="location.href='#posts-container';">Read articles</button>
+     </div>
+   </div>
+   <div class="container">
+  <h1>Posts</h1>
+  <div id="posts-container"></div>
+  <div class="pagination" id="pagination-controls"></div>
+  </div>
+  <add src="components/footer"></add>
+  <script src="files/home.js"></script>
+  <script src="files/main.js"></script>
+</body>
+</html>
