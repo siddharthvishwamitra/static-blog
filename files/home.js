@@ -1,7 +1,7 @@
 document.addEventListener("DOMContentLoaded", function() {
   const postsContainer = document.getElementById("posts-container");
   const paginationControls = document.getElementById("pagination-controls");
-  const postsPerPage = 10;
+  const postsPerPage = 8;
   let currentPage = 1;
   let posts = [];
 

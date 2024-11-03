@@ -1,14 +1,42 @@
 [
   {
-    "post-name": "First Blog Post",
+    "post-name": "Hiking Through the Blue Ridge Mountains",
     "post-link": "post.html?blog1"
   },
   {
-    "post-name": "Second Blog Post",
-    "post-link": "post.html?post2"
+    "post-name": "Mastering the Art of Sourdough Bread",
+    "post-link": "post.html?blog2"
   },
   {
-    "post-name": "Hello Guys",
-    "post-link": "post.html?mustbe"
+    "post-name": "A Journey Through Venice’s Canals",
+    "post-link": "post.html?blog3"
+  },
+  {
+    "post-name": "Basics of JavaScript for Beginners",
+    "post-link": "post.html?blog4"
+  },
+  {
+    "post-name": "Visiting the Louvre Museum",
+    "post-link": "post.html?blog5"
+  },
+  {
+    "post-name": "Gardening Tips for Beginners",
+    "post-link": "post.html?blog6"
+  },
+  {
+    "post-name": "Exploring Japanese Tea Ceremony",
+    "post-link": "post.html?blog7"
+  },
+  {
+    "post-name": "Astronomy Night: Observing the Stars",
+    "post-link": "post.html?blog8"
+  },
+  {
+    "post-name": "Cooking Thai Cuisine at Home",
+    "post-link": "post.html?blog9"
+  },
+  {
+    "post-name": "Understanding Cryptocurrency Basics",
+    "post-link": "post.html?blog10"
   }
 ]
