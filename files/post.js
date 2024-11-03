@@ -45,13 +45,12 @@ document.addEventListener('DOMContentLoaded', function() {
     document.getElementById('date').textContent = `Published on: ${post.date}`;
     document.getElementById('author').textContent = `Author: ${post.author}`;
 
-    // Display the featured image if it exists
+    // Display the featured image if it exists and center it
     const postImage = document.getElementById('post-image');
     if (post.image) {
       postImage.src = post.image;
-      postImage.style.display = 'block';
-      postImage.style.maxWidth = '100%';
-      postImage.style.margin = '0 auto';
+      postImage.style.display = 'block'; // Make sure to display it as a block
+      postImage.style.margin = '0 auto'; // Center the image
     }
 
     // Set content as HTML directly
