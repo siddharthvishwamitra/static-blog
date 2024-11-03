@@ -2,11 +2,13 @@
   font-family: NectoMono;
   src: url(NectoMono-Regular.woff2);
 }
+* {
+  font-family: NectoMono;
+}
 html {
   scroll-behavior: smooth;
 }
 body {
-  font-family: NectoMono;
   margin: 0px;
 }
 .container {
