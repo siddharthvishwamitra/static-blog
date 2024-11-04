@@ -1,0 +1,78 @@
+/* Table */
+table {
+    width: 100%; /* Full width */
+    border-collapse: collapse; /* Merge borders */
+    margin: 20px 0; /* Space above and below the table */
+    font-family: Arial, sans-serif; /* Font family */
+}
+th, td {
+    border: 1px solid #dddddd; /* Light gray border */
+    text-align: left; /* Align text to the left */
+    padding: 8px; /* Padding inside cells */
+}
+th {
+    background-color: #f2f2f2; /* Light gray background for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+tr:nth-child(even) {
+    background-color: #f9f9f9; /* Light background for even rows */
+}
+tr:hover {
+    background-color: #f1f1f1; /* Highlight row on hover */
+}
+caption {
+    margin: 10px; /* Space around the caption */
+    font-size: 1.5em; /* Caption font size */
+    font-weight: bold; /* Caption font weight */
+}
+
+/* Blockquote */
+blockquote {
+    margin: 1.5em 0; /* Margin above and below the blockquote */
+    padding: 1em; /* Padding inside the blockquote */
+    border-left: 4px solid #6610F2; /* Left border with a color of your choice */
+    background-color: #f9f9f9; /* Light background color */
+    color: #333; /* Text color */
+    font-style: italic; /* Italicized text */
+    quotes: "“" "”" "‘" "’"; /* Set quotes */
+}
+blockquote:before {
+    content: open-quote; /* Open quote before the text */
+    font-size: 2em; /* Larger size for the opening quote */
+    line-height: 0; /* Prevents spacing issues */
+    margin-right: 0.25em; /* Space between quote and text */
+    vertical-align: super; /* Aligns quote nicely */
+}
+blockquote:after {
+    content: close-quote; /* Close quote after the text */
+    font-size: 2em; /* Larger size for the closing quote */
+    line-height: 0; /* Prevents spacing issues */
+    margin-left: 0.25em; /* Space between text and closing quote */
+    vertical-align: super; /* Aligns quote nicely */
+}
+
+/* Button */
+button {
+    background-color: #6610F2; /* Button background color */
+    color: white; /* Text color */
+    border: none; /* Remove border */
+    border-radius: 4px; /* Rounded corners */
+    padding: 10px 20px; /* Padding inside the button */
+    font-size: 16px; /* Font size */
+    cursor: pointer; /* Pointer cursor on hover */
+    transition: background-color 0.3s, transform 0.2s; /* Smooth transitions */
+    outline: none; /* Remove outline */
+}
+button:hover {
+    background-color: #5a0dc3; /* Darker shade on hover */
+    transform: translateY(-2px); /* Lift effect on hover */
+}
+button:active {
+    background-color: #4b0b95; /* Even darker shade when clicked */
+    transform: translateY(0); /* Reset lift effect */
+}
+button:disabled {
+    background-color: #cccccc; /* Gray background for disabled state */
+    color: #666666; /* Dark gray text for disabled state */
+    cursor: not-allowed; /* Not-allowed cursor for disabled state */
+}
