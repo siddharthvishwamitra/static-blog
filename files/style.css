@@ -10,6 +10,7 @@ html {
 }
 body {
   margin: 0px;
+  background-color: #ffffff;
 }
 .container {
       background-color: #ffffff;
@@ -206,3 +207,46 @@ footer {
             margin-right: 1em;
         }
     }
+    
+@media (prefers-color-scheme: dark) {
+/* Apply dark mode variables */
+body, .container{
+  background-color: #121212;
+  color: #eaeaea;
+}
+a {
+  color: #eaeaea;
+}
+.header {
+  background-color: #121212;
+  border-bottom: 1px solid #f8f8f8;
+}
+.header a.logo {
+  color: #eaeaea;
+}
+.header a.logo:hover {
+  background-color: #121212;
+  color: #eaeaea;
+}
+.blog-post {
+  color: #eaeaea;
+}
+/* Post item styling */
+.post-item {
+  background-color: #008080;
+  border-left: 4px solid #ffd700;
+  border-bottom: 1px solid #ddd;
+}
+.post-item a {
+  color: #ffffff;
+}
+.post-item a:hover {
+  color: #ffd700;
+}
+.pagination button {
+  color: #121212;
+}
+.pagination button:not(:disabled) {
+  color: #ffffff;
+}
+}

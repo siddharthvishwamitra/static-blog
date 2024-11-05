@@ -3,7 +3,6 @@ table {
     width: 100%; /* Full width */
     border-collapse: collapse; /* Merge borders */
     margin: 20px 0; /* Space above and below the table */
-    font-family: Arial, sans-serif; /* Font family */
 }
 th, td {
     border: 1px solid #dddddd; /* Light gray border */
@@ -75,4 +74,33 @@ button:disabled {
     background-color: #cccccc; /* Gray background for disabled state */
     color: #666666; /* Dark gray text for disabled state */
     cursor: not-allowed; /* Not-allowed cursor for disabled state */
+}
+
+@media (prefers-color-scheme: dark) {
+  /* Apply dark mode variables */
+  th {
+    background-color: #121212; /* Light gray background for headers */
+    font-weight: bold; /* Bold text for headers */
+}
+tr:nth-child(even) {
+    background-color: #121212; /* Light background for even rows */
+}
+tr:hover {
+    background-color: #121212; /* Highlight row on hover */
+}
+
+/* Blockquote */
+blockquote {
+    border-left: 4px solid #6610F2; /* Left border with a color of your choice */
+    background-color: #1e1e1e; /* Dark background color for dark mode */
+    color: #EAEAEA; /* Off-white text color for better readability */
+}
+
+blockquote:before {
+    color: #6610F2; /* Optional: change color for the opening quote */
+}
+
+blockquote:after {
+    color: #6610F2; /* Optional: change color for the closing quote */
+}
 }
