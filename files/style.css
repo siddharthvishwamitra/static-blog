@@ -97,6 +97,7 @@ body {
   font-weight: bold;
   -webkit-tap-highlight-color: transparent; /* Safari and Chrome (WebKit) */
   outline: none; /* Removes outline in most browsers */
+  filter: brightness(1.1) saturate(150%) contrast(130%) hue-rotate(90deg);
 }
 
 /* Change the background color on mouse-over */
@@ -107,9 +108,6 @@ body {
 /* Float the link section to the right */
 .header-right {
   float: right;
-}
-.header .logo:hover {
-  background-color: #f8f8f8;
 }
 /* Add media queries for responsiveness - when the screen is 500px wide or less, stack the links on top of each other */
 @media screen and (max-width: 500px) {
@@ -223,10 +221,7 @@ a {
 }
 .header a.logo {
   color: #eaeaea;
-}
-.header a.logo:hover {
-  background-color: #121212;
-  color: #eaeaea;
+  filter: brightness(0) invert(1);
 }
 .header-right a {
   color: #eaeaea;
