@@ -228,6 +228,9 @@ a {
   background-color: #121212;
   color: #eaeaea;
 }
+.header-right a {
+  color: #eaeaea;
+}
 .blog-post {
   color: #eaeaea;
 }
