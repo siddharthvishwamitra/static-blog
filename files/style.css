@@ -135,6 +135,7 @@ body {
   background-repeat: no-repeat;
   background-size: cover;
   position: relative;
+  width: 100%;
 }
 
 .hero-text {
@@ -172,7 +173,6 @@ body {
     max-height: 500px;
   }
 }
-
 footer {
         padding: 1em;
         background: #333;
