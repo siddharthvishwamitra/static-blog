@@ -14,6 +14,17 @@ Welcome to the **Static Blog** repository! This project is a simple, fast, and e
 - **Pagination**: Supports pagination for blog posts, displaying 10 posts per page for better navigation.
 - **HTML Support in JSON**: Blog content can include HTML for enhanced formatting and structure.
 
+## Screenshots
+
+### Home Page - Light Mode
+<img src="https://blog2219.pages.dev/files/scr/home_dark.png" alt="Home Page - Light Mode" width="600"/>
+
+### Home Page - Dark Mode
+<img src="https://blog2219.pages.dev/files/scr/home_dark.png" alt="Home Page - Dark Mode" width="600"/>
+
+### Post Page
+<img src="https://blog2219.pages.dev/files/scr/home_dark.png" alt="Post Page" width="600"/>
+
 ## Getting Started
 
 ### Prerequisites
