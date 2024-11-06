@@ -17,13 +17,13 @@ Welcome to the **Static Blog** repository! This project is a simple, fast, and e
 ## Screenshots
 
 ### Home Page - Light Mode
-<img src="https://blog2219.pages.dev/files/scr/home_light.png" alt="Home Page - Light Mode" width="600"/>
+<img src="https://blog2219.pages.dev/files/scr/home_light.png" alt="Home Page - Light Mode" width="400"/>
 
 ### Home Page - Dark Mode
-<img src="https://blog2219.pages.dev/files/scr/home_dark.png" alt="Home Page - Dark Mode" width="600"/>
+<img src="https://blog2219.pages.dev/files/scr/home_dark.png" alt="Home Page - Dark Mode" width="400"/>
 
 ### Post Page
-<img src="https://blog2219.pages.dev/files/scr/post.png" alt="Post Page" width="600"/>
+<img src="https://blog2219.pages.dev/files/scr/post.png" alt="Post Page" width="400"/>
 
 ## Getting Started
 
