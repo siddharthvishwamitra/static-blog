@@ -1,3 +1,9 @@
+/**
+ * Project Name: Static Blog
+ * Author: Siddharth Kumar
+ * License: MIT License
+ * Source: https://github.com/siddharthjkamra/static-blog
+ */
 document.addEventListener('DOMContentLoaded', function() {
   const blogContainer = document.getElementById('blog-container');
 
