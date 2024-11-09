@@ -1,8 +1,95 @@
-<div class="header">
-  <a href="/" class="logo"><img src="/files/images/logo.png" width="248px" alt="Static Blog Logo"></a>
-  <div class="header-right">
-    <a href="/">Home</a>
-    <a href="/about.html">About</a>
-    <a href="/contact.html">Contact</a>
-  </div>
+<style>
+  .navbar { display: flex; align-items: center; padding: 10px 20px; background-color: #f8f8f8; color: #000; position: relative; z-index: 1000; height: 40px;}
+  .logo { flex: 1; font-size: 1.2em; }
+  .nav-links { list-style: none; display: flex; gap: 15px; position: relative; }
+  .nav-links a { color: #000; text-decoration: none; padding: 10px; display: flex; align-items: center; }
+  .hamburger { display: none; font-size: 1.5em; cursor: pointer; }
+
+  /* Submenu styling */
+  .submenu { display: none; position: absolute; background-color: #272727; list-style: none; padding: 10px; border-radius: 5px; animation: fadeSlide 0.3s ease; min-width: 150px; top: 100%; left: 0; }
+  .nav-item:hover .submenu { display: block; } /* Show submenu on hover for desktop */
+  .submenu a { display: block; padding: 8px 12px; color: #ddd; white-space: nowrap; }
+  .submenu a:hover { background-color: #555; }
+
+  /* Icon for dropdown links */
+  .dropdown-icon { margin-left: 5px; font-size: 0.8em; }
+
+  /* Keyframes for animation */
+  @keyframes fadeSlide {
+    from { opacity: 0; transform: translateY(-10px); }
+    to { opacity: 1; transform: translateY(0); }
+  }
+
+/* Mobile Styles */
+@media (max-width: 768px) {
+  .nav-links {
+    display: none;
+    flex-direction: column;
+    gap: 0;
+    background-color: #111111;
+    position: fixed;
+    top: 70px;
+    left: 50%; /* Center it horizontally */
+    width: 85%;
+    padding: 20px;
+    z-index: 999;
+    transform: translateX(-50%); /* Shift it back by half its width to center */
+    margin: 0;
+    border-radius: 4px;
+  }
+  .hamburger {
+    display: block;
+  }
+  .nav-links.show {
+    display: flex;
+  }
+  .nav-item {
+    position: relative;
+  }
+  .nav-item .submenu {
+    position: relative;
+    margin-top: 5px;
+    padding-left: 15px;
+  }
+  .nav-item .submenu a {
+    padding: 8px;
+    color: #ddd;
+  }
+  .nav-links a {
+    color: #fff;
+  }
+}
+@media (prefers-color-scheme: dark) {
+.navbar {
+background-color:#121212;
+}
+.navbar img {
+filter: brightness(0) invert(1);
+}
+.nav-links a {
+color: #fff;
+}
+.hamburger {
+color: #fff;
+}
+</style>
+</head>
+<body>
+
+<div class="navbar">
+  <div class="logo"><img src="/files/images/logo.png" width="200px"></div>
+  <div class="hamburger" onclick="toggleMenu()">☰</div>
+  <ul class="nav-links">
+    <li class="nav-item"><a href="#">Home</a></li>
+    <li class="nav-item">
+      <a href="#">Services <span class="dropdown-icon">▼</span></a>
+      <ul class="submenu">
+        <li><a href="#">Web Development</a></li>
+        <li><a href="#">SEO</a></li>
+        <li><a href="#">Content Writing</a></li>
+      </ul>
+    </li>
+    <li class="nav-item"><a href="#">About</a></li>
+    <li class="nav-item"><a href="#">Contact</a></li>
+  </ul>
 </div>

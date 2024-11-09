@@ -12,3 +12,20 @@ function load_file(filename, callback) {
     .then(response => response.text())
     .then(text => callback(text));
 }
+
+
+    // Function to toggle the navigation menu (hamburger)
+    function toggleMenu() {
+      document.querySelector('.nav-links').classList.toggle('show');
+    }
+
+    // Close the menu when clicking outside
+    document.addEventListener('click', function(event) {
+      const menu = document.querySelector('.nav-links');
+      const hamburger = document.querySelector('.hamburger');
+
+      // If the menu is open and the click is outside the menu and hamburger
+      if (menu.classList.contains('show') && !menu.contains(event.target) && !hamburger.contains(event.target)) {
+        menu.classList.remove('show');
+      }
+    });
