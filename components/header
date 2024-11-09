@@ -1,5 +1,5 @@
 <div class="navbar">
-  <div class="logo"><a href="/"><img src="/files/images/logo.png" width="200px"></a></div>
+  <div class="logo"><a href="/"><img src="/files/images/logo.png" alt="Logo" width="200px"></a></div>
   <div class="hamburger" onclick="toggleMenu()">☰</div>
   <ul class="nav-links">
     <li class="nav-item"><a href="/">Home</a></li>
