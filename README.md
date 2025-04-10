@@ -35,4 +35,4 @@ Welcome to the **Static Blog** repository! This project is a simple, fast, and e
 
 1. Clone this repository:
    ```bash
-   git clone https://github.com/siddharthjkamra/static-blog.git
+   git clone https://github.com/siddharthvishwamitra/static-blog.git
